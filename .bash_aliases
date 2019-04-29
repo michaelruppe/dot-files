@@ -3,7 +3,7 @@
 #
 #
 # To use these aliases you can:
-# 1. Paste its contents in your .bashrc file OR
+# 1. Paste this file's contents in your .bashrc file OR
 # 2. Copy this file to your user-home-directory and ensure the follwing lines are included in your .bashrc file
 #     if [ -f ~/.bash_aliases ]; then
 #         . ~/.bash_aliases
