@@ -21,6 +21,8 @@ alias up='upup'
 # Ranger
 alias ra='ranger'
 
+# Fuzzy file search fzf. Get it here: https://github.com/junegunn/fzf
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
