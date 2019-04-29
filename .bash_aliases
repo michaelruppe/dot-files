@@ -18,6 +18,9 @@ mkcd(){ NAME=$1; mkdir -p "$NAME"; cd "$NAME"; }
 upup(){ DEEP=$1; for i in $(seq 1 ${DEEP:-"1"}); do cd ../; done; }
 alias up='upup'
 
+# Ranger
+alias ra='ranger'
+
 
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
